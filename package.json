@@ -1,0 +1,33 @@
+{
+  "name": "jest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`products to match requirements 1`] = `
+Array [
+  Object {
+    "description": "Large drone for most critical missions. Can carry load.",
+    "id": "1",
+    "image": "drone-large.jpg",
+    "price": 499.99,
+    "title": "Large drone",
+  },
+  Object {
+    "description": "Small drone. Can fly undetected.",
+    "id": "2",
+    "image": "drone-small.jpg",
+    "price": 199.99,
+    "title": "Small drone",
+  },
+  Object {
+    "description": "Nice-looking drone in blue color. Has built-in HD camera",
+    "id": "3",
+    "image": "drone-blue.jpg",
+    "price": 249.99,
+    "title": "Blue drone",
+  },
+  Object {
+    "description": "Nice-looking drone in red color",
+    "id": "4",
+    "image": "drone-red.jpg",
+    "price": 229.99,
+    "title": "Red drone",
+  },
+  Object {
+    "description": "Black gyroboard to match your style",
+    "id": "5",
+    "image": "gyroboard-black.jpg",
+    "price": 729.99,
+    "title": "Black gyroboard",
+  },
+  Object {
+    "description": "White gyroboard with blue lights",
+    "id": "6",
+    "image": "gyroboard-white.jpg",
+    "price": 829.99,
+    "title": "White gyroboard",
+  },
+  Object {
+    "description": "Best crossover in the World",
+    "id": "7",
+    "image": "tesla-x.jpg",
+    "price": 99999.99,
+    "title": "Tesla Model X",
+  },
+  Object {
+    "description": "Best sports car in the World",
+    "id": "8",
+    "image": "tesla-roadster.jpg",
+    "price": 249999.99,
+    "title": "Tesla Roadster",
+  },
+]
+`;
